@@ -14,9 +14,9 @@ _I want to change the field of activity to the one that I like_
 
 _I study JS because I like it._
 ### Skills:
-* _HTML, css, js_
-* _React, Redux, mobx_
-* _Node.js, express, sequelize_
+* _HTML, CSS, JS_
+* _React, Redux, Mobx_
+* _Node.js, Express, Sequelize_
 
 ### Сode example:
 _code example that generates the initial error object for form validation based on the initial array (mainArray) with data for rendering input fields:_
