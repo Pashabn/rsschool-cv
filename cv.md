@@ -25,7 +25,7 @@ _I study JS because I like it._
 _my answer:_
 ```
     function everyEvery(a,n){
-        return a.map(item => item.map(item => item > n).includes(false)).includes(false)
+        return !a.some(i => i.some(i => i <= n))
     }
 ```        
 ### Work experience:
