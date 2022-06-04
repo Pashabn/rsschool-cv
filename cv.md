@@ -23,7 +23,7 @@ _I study JS because I like it._
 [codewars test](https://www.codewars.com/kata/57cc9fd358a06b22a4000248/train/javascript "codewars test")
 
 _my answer:_
-
+```
     function everyEvery(a,n){
         let temp = []
         a.map(item => item.map(item => {
@@ -31,7 +31,7 @@ _my answer:_
         } ))
         return !temp.includes(false)
     }
-        
+```        
 ### Work experience:
 _I have some pet projects and created several websites_
 
