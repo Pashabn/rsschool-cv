@@ -25,11 +25,7 @@ _I study JS because I like it._
 _my answer:_
 ```
     function everyEvery(a,n){
-        let temp = []
-        a.map(item => item.map(item => {
-            temp.push(item > n)
-        } ))
-        return !temp.includes(false)
+        return a.map(item => item.map(item => item < n).includes(true)).includes(false)
     }
 ```        
 ### Work experience:
