@@ -15,7 +15,7 @@ _I want to change the field of activity to the one that I like_
 _I study JS because I like it._
 ### Skills:
 * _HTML, CSS, JS_
-* _React, Redux, Mobx_
+* _React, React-Hooks, React-Router-Dom, Redux, MobX_
 * _Node.js, Express, Sequelize_
 
 ### Сode example:
