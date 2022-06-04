@@ -25,7 +25,7 @@ _I study JS because I like it._
 _my answer:_
 ```
     function everyEvery(a,n){
-        return !a.some(i => i.some(i => i <= n))
+        return!a.some(i=>i.some(i=>i<n))
     }
 ```        
 ### Work experience:
