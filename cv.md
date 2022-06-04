@@ -19,14 +19,18 @@ _I study JS because I like it._
 * _Node.js, Express, Sequelize_
 
 ### Сode example:
-_code example that generates the initial error object for form validation based on the initial array (mainArray) with data for rendering input fields:_
+       
+[codewars test](https://www.codewars.com/kata/57cc9fd358a06b22a4000248/train/javascript "codewars test")
 
-    const initialErrors = mainArray.reduce(
-        (obj, item) => {
-            obj[item.name] = false
-            return obj
-        }
-        , {})
+_my answer:_
+
+    function everyEvery(a,n){
+        let temp = []
+        a.map(item => item.map(item => {
+            temp.push(item > n)
+        } ))
+        return !temp.includes(false)
+    }
         
 ### Work experience:
 _I have some pet projects and created several websites_
