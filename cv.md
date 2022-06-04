@@ -1,5 +1,6 @@
 
-![myImage](myPhotoMin.jpg "My photo") # **Pasha Kozhemiakin**
+![myImage](myPhotoMin.jpg "My photo") 
+# **Pasha Kozhemiakin**
 ## Frontend developer
 ### Contacts:
 _**phone:** +375293460869, **e-mail:** pashabn777@gmail.com, **discord:** Pashabn#1116_
