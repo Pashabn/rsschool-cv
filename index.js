@@ -3,7 +3,7 @@ const navBar = document.querySelector('nav')
 const li = navBar.querySelectorAll('li')
 
 window.addEventListener('resize', () => {
-    if (navBar.classList.contains('active')) toggleMenu()
+    if (navBar.classList.contains('active') && window.innerWidth !== width) toggleMenu()
 })
 
 burger.onclick = toggleMenu
