@@ -13,9 +13,3 @@ function toggleMenu() {
     navBar.classList.toggle('active')
     burger.classList.toggle('active')
 }
-
-
-
-const disemvowel = str => str.replace(/[aeiou]/gi, '')
-
-
