@@ -1,3 +1,4 @@
+const body = document.querySelector('body')
 const burger = document.querySelector('.burg')
 const navBar = document.querySelector('nav')
 const li = navBar.querySelectorAll('li')
@@ -12,4 +13,5 @@ li.forEach(i => i.onclick = toggleMenu)
 function toggleMenu() {
     navBar.classList.toggle('active')
     burger.classList.toggle('active')
+    body.classList.toggle('hold')
 }
