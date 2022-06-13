@@ -1,0 +1,20 @@
+const body = document.querySelector('body')
+const burger = document.querySelector('.burg')
+const navBar = document.querySelector('nav')
+const li = navBar.querySelectorAll('li')
+const width = window.innerWidth
+
+window.addEventListener('resize', () => {
+    if (navBar.classList.contains('active') && window.innerWidth !== width) toggleMenu()
+})
+
+burger.onclick = toggleMenu
+li.forEach(i => i.onclick = () => {
+    if (navBar.classList.contains('active')) toggleMenu()
+})
+
+function toggleMenu() {
+    navBar.classList.toggle('active')
+    burger.classList.toggle('active')
+    body.classList.toggle('hold')
+}
