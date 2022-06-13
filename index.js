@@ -8,7 +8,7 @@ window.addEventListener('resize', () => {
 })
 
 burger.onclick = toggleMenu
-li.forEach(i => i.onclick = toggleMenu)
+li.forEach(i => i.onclick = navBar.classList.contains('active') && toggleMenu)
 
 function toggleMenu() {
     navBar.classList.toggle('active')
