@@ -1,3 +1,4 @@
+![myImage](./img/photo_m.jpg "my photo")
 # **Pasha Kozhemiakin**
 ## Frontend developer
 ### Contacts:
